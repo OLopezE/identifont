@@ -1,0 +1,18 @@
+.nav-container{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+button{
+    min-width: 3rem;
+    min-height: 3rem;
+    margin: .5rem 2rem;
+    background-color: transparent;
+    border: 0;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.5)
+}

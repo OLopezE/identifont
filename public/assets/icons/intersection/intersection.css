@@ -1,0 +1,28 @@
+.icon-container{
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon-container > div{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.icon-container > div:last-child{
+    right: 10px;
+    overflow: hidden;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: #CFCABD;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px
+}
